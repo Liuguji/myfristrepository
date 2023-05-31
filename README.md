@@ -1,2 +1,3 @@
 # myfristrepository
-just for test and maybe could be used as test1
+
+this is my first project and i just want to test.
