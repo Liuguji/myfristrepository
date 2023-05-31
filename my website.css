@@ -1,0 +1,598 @@
+body{
+    font-size: 20px;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-image:url('back.png');
+    margin: 0;
+    padding: 0;
+    font-family: "仿宋";
+    font-weight: 700;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 35px;
+    font-family: "仿宋";
+    padding-top: 6%;
+    padding-bottom: 3%;
+}
+#videoBtn {
+    width: max-content;
+    align-self:auto;
+    padding-bottom: 300px; 
+}
+#video1{
+    width: max-content;
+}
+h2 {
+    font-weight: 700;
+    font-size: 35px;
+    font-family: "仿宋";
+    padding-bottom: 3%
+}
+
+.item {
+    padding-bottom: 300px;
+    display: flex;  
+    justify-content: center;  
+    align-items: flex-end;
+}
+
+.img {
+    flex-grow:1;
+}
+
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+ 
+.box ul {
+    width: 900px;
+    height: 100%;
+    overflow: hidden;
+    transition: all .4s;
+}
+ 
+.box ul li {
+    position: relative;
+    float: left;
+    list-style-type: none;
+    width: 100px;
+    
+    transition: all .3s;
+}
+ 
+.box ul li p {
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 15px;
+    font-family: "仿宋";    
+    font-weight: bold;
+    color: #fcfafa;  
+    background-color: rgba(0, 0, 0, .3);
+    transition: all .4s;
+}
+
+.box ul li:hover p {
+    font-size: 20px; 
+}
+ 
+
+.box ul li:hover {
+    width: 400px;
+    
+}
+
+h3{
+    font-weight: 700;
+    font-size: 35px;
+    font-family: "仿宋";
+    padding-bottom: 3%
+}
+
+#div3{
+    padding-bottom: 300px;
+    width: 1000px;
+    height: 1100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#hea{
+    width: 100%;
+    height: 140px;
+    font-size: 20px;
+    text-indent: 2em;
+}
+
+#jieshao{
+    height: 900px;
+    display: grid;
+    grid-template-rows: repeat(20,50px);
+    grid-template-columns: repeat(18,50px);
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    padding-bottom: 9%;
+}
+
+#chun1{ 
+    grid-row-start: 1;
+    grid-row-end: 7;
+    grid-column-start: 1;
+    grid-column-end: 14;  
+    background-image:url('立春.jpg');
+    background-size: cover;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+#p1{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    color:rgb(26, 52, 30);
+    text-indent: 2em;
+}
+#chun2{
+    grid-row-start: 1;
+    grid-row-end: 11;
+    grid-column-start: 14;
+    grid-column-end: 21;
+    background-image:url('雨水.jpg');
+    background-size: cover;
+    display: grid;
+    grid-template-columns:1fr 5fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+#p2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    color:rgb(241, 239, 239);
+    text-indent: 2em;
+}
+#chun3{
+    grid-row-start: 7;
+    grid-row-end: 14;
+    grid-column-start: 1;
+    grid-column-end: 9;
+    background-image:url('惊蛰.jpg');
+    background-size: cover;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+#p3{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    color:rgb(30, 21, 26);
+    text-indent: 2em;
+}
+#chun4{
+    grid-row-start: 7;
+    grid-row-end: 19;
+    grid-column-start: 9;
+    grid-column-end: 14;
+    background-image:url('春分.jpg');
+    background-size: cover;
+    display: grid;
+    grid-template-rows: 7fr 5fr;
+    grid-template-columns:1fr 5fr 1fr;
+}
+#p4{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    color:rgb(255, 255, 255);
+    text-indent: 2em;
+}
+#chun5{
+    grid-row-start: 14;
+    grid-row-end: 19;
+    grid-column-start: 1;
+    grid-column-end: 9;
+    background-image:url('清明.jpg');
+    background-size: cover;
+    display: grid;
+    grid-template-columns:1fr 3fr 1fr;
+    grid-template-rows: 3fr 6fr 4fr;
+}
+#p5{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    color:rgb(15, 42, 5);
+    text-indent: 2em;
+}
+#chun6{
+    grid-row-start: 11;
+    grid-row-end: 19;
+    grid-column-start: 14;
+    grid-column-end: 21;
+    background-image:url('谷雨.jpg');
+    background-size: cover;
+    display: grid;
+    grid-template-columns:1fr 5fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+#p6{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    color:rgb(26, 38, 41);
+    text-indent: 2em;
+}
+
+#chun1{
+    position:relative;
+}
+.chuntian1{
+    animation-name:mymove1;
+    animation-duration:1s;
+    
+    -webkit-animation-name:mymove1;
+    -webkit-animation-duration:1s;
+}
+@keyframes mymove1
+{
+from {right:200px;}
+to {right:0px;}
+0% {
+opacity: 0.1; 
+}
+50% {
+opacity: 0.5; 
+}
+100% {
+opacity: 1;
+}
+}
+@-webkit-keyframes mymove1
+{
+from {right:200px;}
+to {right:0px;}
+}
+
+
+#chun2{
+    position:relative;  
+}
+.chuntian2{
+    animation-name:mymove2;
+    animation-duration:1s;  
+    
+    -webkit-animation-name:mymove2;
+    -webkit-animation-duration:1s;
+}
+@keyframes mymove2
+{
+from {bottom: 150px;}
+to {bottom:0px;}
+0% {
+opacity: 0.1; 
+}
+50% {
+opacity: 0.5; 
+}
+100% {
+opacity: 1; 
+}
+}
+@-webkit-keyframes mymove2
+{
+from {bottom: 150px;}
+to {bottom:0px;}
+}
+
+
+#chun3{
+    position:relative; 
+}
+.chuntian3{
+    animation-name:mymove3;
+    animation-duration:1s;
+    
+    -webkit-animation-name:mymove3;
+    -webkit-animation-duration:1s;
+}
+@keyframes mymove3 
+{
+from {right:180px;}
+to {right:0px;}
+0% {
+opacity: 0.1;
+}
+50% {
+opacity: 0.5; 
+}
+100% {
+opacity: 1; 
+}
+}
+@-webkit-keyframes mymove3
+{
+from {right:180px;}
+to {right:0px;}
+}
+
+
+#chun4{
+    position:relative; 
+}
+.chuntian4{
+    animation-name:mymove4;
+    animation-duration:1s;
+    
+    -webkit-animation-name:mymove4;
+    -webkit-animation-duration:1s;
+}
+@keyframes mymove4 
+{
+from {top:200px;}
+to {top:0px;}
+0% {
+opacity: 0.1;
+}
+50% {
+opacity: 0.5;
+}
+100% {
+opacity: 1;
+}
+}
+@-webkit-keyframes mymove4
+{
+from {top:200px;}
+to {top:0px;}
+}
+
+
+#chun5{
+    position:relative;
+}  
+.chuntian5{
+    animation-name:mymove5;
+    animation-duration:1s;  
+    
+    -webkit-animation-name:mymove5;
+    -webkit-animation-duration:1s; 
+}
+@keyframes mymove5
+{
+from {right:150px;}
+to {right:0px;}
+0% {
+opacity: 0.1; 
+}
+50% {
+opacity: 0.5; 
+}
+100% {
+opacity: 1;
+}
+}
+@-webkit-keyframes mymove5
+{
+from {right:150px;}
+to {right:0px;}
+}
+
+
+#chun6{
+    position:relative;
+}
+.chuntian6{
+    animation-name:mymove6;
+    animation-duration:1s; 
+
+    -webkit-animation-name:mymove6;
+    -webkit-animation-duration:1s;
+}
+@keyframes mymove6
+{
+from {left:220px;}
+to {left:0px;}
+0% {
+opacity: 0.1;
+}
+50% {
+opacity: 0.5; 
+}
+100% {
+opacity: 1; 
+}
+}
+@-webkit-keyframes mymove6
+{
+from {left:200px;}
+to {left:0px;}
+}
+
+
+h4{
+    font-weight: 700;
+    font-size: 35px;
+    font-family: "仿宋";
+    padding-bottom: 5%
+}
+
+#div4{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 300px;
+    width: 100vmax;
+    height: 35.54455445544vmax;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 0px;
+    grid-column-gap: 0px;
+}
+
+
+#div4left{
+    position:relative;
+}
+.leftbefore{
+    text-align: center;   
+    vertical-align: middle;
+    letter-spacing: 1px;
+    line-height: 140%;
+
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-image:url('left-back.jpg');
+    background-size: cover;
+    display: grid;
+    grid-template-rows:1fr 4fr 1fr 4fr 1fr;
+    grid-template-columns:2fr 8fr 1fr 8fr;
+}
+
+.leftafter{
+    animation-name:leftmove;
+    animation-duration:1.5s; 
+    -webkit-animation-name:leftmove;
+    -webkit-animation-duration:1.5s;
+}
+@keyframes leftmove
+{
+from {right:220px;}
+to {right:0px;}
+0% {
+opacity: 0.5; 
+}
+50% {
+opacity: 0.8; 
+}
+100% {
+opacity: 1; 
+}
+}
+@-webkit-keyframes leftmove
+{
+from {right:200px;}
+to {right:0px;}
+}
+
+
+#div4right{
+    position:relative;   
+}
+.rightbefore{
+    text-align: center;   
+    vertical-align: middle;
+    letter-spacing: 1px;
+    line-height: 140%;
+
+    text-align: center;   
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-image:url('right-back.jpg');
+    background-size: cover;
+    display: grid;
+    grid-template-rows:1fr 4fr 1fr 4fr 1fr;
+    grid-template-columns:1fr 8fr 1fr 6fr 2fr;
+}
+
+.rightafter{
+    animation-name:rightmove;
+    animation-duration:1.5s; 
+
+    -webkit-animation-name:rightmove;
+    -webkit-animation-duration:1.5s;
+}
+@keyframes rightmove 
+{
+from {left:220px;}
+to {left:0px;}
+0% {
+opacity: 0.5; 
+}
+50% {
+opacity: 0.8;
+}
+100% {
+opacity: 1;
+}
+}
+@-webkit-keyframes rightmove
+{
+from {left:200px;}
+to {left:0px;}
+}
+
+#son1{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    color: bisque;
+}
+#son2{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    color: bisque;
+}
+#son3{
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    color: bisque;
+}
+#son4{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    color: bisque;
+}
+#son5{
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    color: bisque;
+}
+#son6{
+    grid-row-start: 3;
+    grid-row-end: 5;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    color: bisque;
+}
+#more{   
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 4;
+    grid-column-end: 5; 
+}
+.morepoems:link{
+    text-decoration: none;
+}
+
+.morepoems:hover{
+    color: #fcfafa;
+}
